@@ -22,10 +22,10 @@ function Hero({}: Props) {
         height={150}
       />
       <div className="z-20">
-        <h1 className="text-sm mt-5 pb-2 tracking-[10px] text-gray-400">
+        <h1 className="text-sm mt-5 pb-2 tracking-[10px] text-beige">
           SOFTWARE DEVELOPER
         </h1>
-        <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
+        <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10 text-tan">
           <span>{text}</span>
           <Cursor cursorColor="lightgray" />
         </h1>
@@ -36,11 +36,11 @@ function Hero({}: Props) {
           <Link href={"#experience"}>
             <button className="heroButton">EXPERIENCE</button>
           </Link>
-          <Link href={"#skills"}>
-            <button className="heroButton">SKILLS</button>
-          </Link>
           <Link href={"#projects"}>
             <button className="heroButton">PROJECTS</button>
+          </Link>
+          <Link href={"#contact"}>
+            <button className="heroButton">CONTACT ME</button>
           </Link>
         </div>
       </div>
