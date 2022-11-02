@@ -6,6 +6,7 @@ type Props = {
   desc: string;
   public: boolean;
   git: string;
+  url: string;
 };
 
 const ProjectCard = (props: Props) => {
@@ -22,10 +23,10 @@ const ProjectCard = (props: Props) => {
         <p className="mb-3 font-normal text-white">{props.desc}</p>
         {props.public ? (
           <a
-            href={props.git}
+            href={props.git == "" ? props.url : props.git}
             className="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-tan rounded-lg hover:bg-beige focus:ring-4 focus:outline-none "
           >
-            View on Git
+            {props.git == "" ? "View Website" : "View on Git"}
           </a>
         ) : null}
       </div>

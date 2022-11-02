@@ -40,22 +40,25 @@ export const projects = [
     src: "https://cdn.sanity.io/images/rcnd5tj3/production/49d410d6a8de6f5989823f801fca0c8f2935dbb6-720x405.jpg",
     heading: "Siemens Ticket System(For engineers)",
     desc: "deployed the whole system to AWS, adding new features and issues debug",
-    public: false,
+    public: true,
     git: "",
+    url: "https://sieservice-rss-tw-web.siemenshk.net/#/login?returnUrl=%2F",
   },
   {
     src: "/panasian.png",
     heading: "Peronsal finance application website",
     desc: "a frontend portal for user to apply personal loan and integrate with third party api (SMS verification)",
-    public: false,
+    public: true,
     git: "",
+    url: "https://client.panasian.biz/",
   },
   {
     src: "https://cdn.sanity.io/images/rcnd5tj3/production/fbf01673c845b687d01a2356d90a127d863ffc2d-3022x1620.png",
     heading: "Portal for greenhouse climate controll",
     desc: "a frontend portal that allows users to get daily snapchat of their plants and controll the environment through portal by calling different sensor api ",
-    public: false,
+    public: true,
     git: "",
+    url: "https://portal.farmacyhk.com/user/login?redirect=https%3A%2F%2Fportal.farmacyhk.com%2F",
   },
   {
     src: "https://cdn.sanity.io/images/rcnd5tj3/production/c6460fd1d472058d0f557a64b878cb23e2de0c8e-2988x1404.png",
@@ -63,6 +66,7 @@ export const projects = [
     desc: "An e-commerce demo app that introducing plum wine, the web is using NextJS and sanity io as a headless cms ",
     public: true,
     git: "https://github.com/angusovo/nextjs-prj",
+    url: "",
   },
   {
     src: "https://cdn.sanity.io/images/rcnd5tj3/production/ed17981bc49a100104a3926a7c75f7edc90b854e-2036x1416.png",
@@ -70,5 +74,6 @@ export const projects = [
     desc: "Demonstrated the use of socket in Django and a simple frontend layout using React",
     public: true,
     git: "https://github.com/angusovo/djangochatapp",
+    url: "",
   },
 ];

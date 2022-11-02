@@ -20,6 +20,7 @@ function Project({}: Props) {
             desc={prj.desc}
             public={prj.public}
             key={key}
+            url={prj.url}
           />
         ))}
       </div>
